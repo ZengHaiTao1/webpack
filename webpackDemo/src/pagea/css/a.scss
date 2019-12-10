@@ -1,0 +1,32 @@
+$body:#725;
+body{
+    //background: url("./images/1.jpg");
+    background: url("../images/1.jpg");
+}
+@font-face {
+    font-family: 'Lazara';
+    src: url('../font1511/Lazara.ttf');
+    src: local('Lazara Regular'),
+           local('Lazara'),
+           url('../font1511/Lazara.ttf') format('ttf'),
+           url('../font1511/Lazara.ttf') format('truetype'),
+           url('../font1511/Lazara.ttf') format('svg');
+   }
+
+   p{
+       background: #725;
+   }
+
+   span{
+       background: red;
+   }
+   .span{
+    background: red;
+   }
+   .flash {
+    animation-name: flash;
+  }
+  div{
+    font-family: Lazara;
+    background:blanchedalmond;
+}

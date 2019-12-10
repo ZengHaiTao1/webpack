@@ -1,0 +1,24 @@
+
+$px:100px;
+div{
+    background: burlywood;
+    transition: all 2s;
+    &:hover{
+        background: brown;
+    }
+    margin: {
+        top: 100px+$px*2;
+    }
+    p{
+        @if & {
+            &:hover {
+              color: red;
+            }
+          } @else {
+            a {
+              color: red;
+            }
+          }
+    }
+    
+}
